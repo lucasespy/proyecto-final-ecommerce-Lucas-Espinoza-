@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Espy Sneakers</title>
+    <link rel="stylesheet" href="stylesnav.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,29 +16,31 @@
               </svg>
         </div>
     </header>
-    <a href="index.html">
-        <img class="espy-logo" src="\images\espy-sneakers-logo.png" alt="espy sneakers logo" width="500">
-    </a>
     <nav>
         <ul class="list">
+            <a href="index.html">
+                <img class="espy-logo" src="\images\espy-sneakers-logo-circle.png" alt="espy sneakers logo" width="500">
+            </a>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Marcas</a></li>
-                <ul>
+            <li>
+                <a href="#">Marcas</a>
+                <ul class="submenu">
                     <li><a href="nike.html">Nike</a></li>
                     <li><a href="adidas.html">Adidas</a></li>
                 </ul>
-                <li><a href="">Nosotros</a></li>
+            </li>
+            <li><a href="">Nosotros</a></li>
         </ul>
     </nav>
     <main>
-        <section>
+        <section class="brands">
             <h2>Marcas</h2>
-            <article class="nike">
+            <article>
                 <a href="nike.html">
                     <img src="\images\nike-logo.jpg" alt="Nike Logo">
                 </a>
             </article>
-            <article class="adidas">
+            <article>
                 <a href="adidas.html">
                     <img src="\images\adidas-originals-logo.jpg" alt="Adidas Logo">
                 </a>

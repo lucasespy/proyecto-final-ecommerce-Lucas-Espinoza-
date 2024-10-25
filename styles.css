@@ -4,60 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Poppins", sans-serif;
     color: rgb(50, 50, 50);
     background-color: rgb(241, 241, 241);
 }
 
-nav {
-    position: relative;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 0;
-    padding: 0 5%;
-    background-color: black;
-    font-family: "Poppins", sans-serif;
-}
-
-nav .list {
-    float: center;
-    padding: 0;
-    margin: 0;
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav .list li {
-    list-style: none;
-}
-
-nav .list a {
-    display: flex;
-    padding: .5em;
-    text-decoration: none;
-    color: white;
-}
-
-nav .list a:hover {
-    background-color: rgb(20, 20, 20);
-    border-radius: 1em;
-}
 
 .icon-cart {
     width: 2.5em;
 }
 
-img {
-    max-width: 100%;
-}
-
 .espy-logo {
-    width: 35%;
+    width: 15%;
 }
 
 header {
@@ -75,7 +35,9 @@ header {
 
 
 .item {
-    border-radius: .5em;
+    width: 75%;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 .item:hover {
@@ -92,7 +54,7 @@ header {
 
 .item figure {
     overflow: hidden;
-    border-radius: .5em .5em 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .item:hover img {
@@ -106,7 +68,6 @@ header {
     flex-direction: column;
     gap: 1em;
 }
-
 
 .info-product button {
     border: none;
@@ -126,4 +87,13 @@ header {
 .price {
     font-size: 18px;
     font-weight: 700;
+}
+
+.brands img {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
 }
