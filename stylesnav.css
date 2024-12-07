@@ -10,6 +10,14 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
+nav .container-icon{
+    color: snow;
+}
+
+nav .espy-logo{
+    
+}
+
 nav .list {
     list-style: none;
     display: flex;

@@ -6,14 +6,10 @@
 }
 
 body {
+    width: 100%;
     font-family: "Poppins", sans-serif;
     color: rgb(50, 50, 50);
     background-color: rgb(241, 241, 241);
-}
-
-
-.icon-cart {
-    width: 2.5em;
 }
 
 .espy-logo {
