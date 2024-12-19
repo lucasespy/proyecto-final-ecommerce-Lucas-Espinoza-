@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: "Lato", serif;
 }
 
 body{
     background-color: rgb(255, 255, 255);
+    height: 100%;
 }
 
 header{
@@ -14,20 +17,20 @@ header{
     height: auto;
     background-color: rgb(35, 35, 35);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 50px 0 50px;
 }
 
 .marca-logo img{
     width: 6em;
 }
 
-.nav-bar{
+.navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-grow: .1;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu{
@@ -81,8 +84,7 @@ header{
     position: relative;
 }
 
-
-.cart-icon{
-    width: 35px;
+.cart-icon svg{
+    width: 25px;
     fill: rgb(255, 255, 255);
 }
