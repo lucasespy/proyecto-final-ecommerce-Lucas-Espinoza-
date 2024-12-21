@@ -7,11 +7,6 @@
     font-family: "Lato", serif;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-}
-
 header{
     width: 100%;
     height: auto;
@@ -22,8 +17,19 @@ header{
     padding: 0 2rem;
 }
 
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .marca-logo img{
-    width: 6rem;
+    width: 5rem;
 }
 
 .navbar{
