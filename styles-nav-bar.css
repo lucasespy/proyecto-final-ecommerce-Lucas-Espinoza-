@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px 0 50px;
+    padding: 0 2rem;
 }
 
 .marca-logo img{
@@ -35,7 +35,7 @@ header{
 
 .menu{
     display:flex;
-    gap: 5em;
+    gap: 20px;
     align-items: center;
     padding: 0;
 }
@@ -62,7 +62,8 @@ header{
     display: none;
     position: absolute;
     background-color: rgb(35, 35, 35);
-    padding: 1.5em 1em;
+    border-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
 }
 
 .menu-marcas li a{
